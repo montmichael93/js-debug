@@ -23,7 +23,7 @@ if (energyLevel >= 24000) {
 if (readyToSkate) {
   console.log("Grab your skateboard...");
   console.log("Ready...");
-  consoul.log("Set...");
+  console.log("Set...");
   console.log("SKATE!");
 } else {
    console.log("No skating today.");

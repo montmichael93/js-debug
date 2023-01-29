@@ -8,7 +8,7 @@ Expected Result:
 */
 
 let readyToSkate = false;
-let energyLevel = 18000;
+let energylevel = 18000;
 
 if (energylevel >= 21000) {
   console.log("Energy level is a go!");

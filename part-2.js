@@ -18,7 +18,7 @@ let readyToSkate = false;
 let crewStatus = true;
 let cameraBattery = "green";
 
-if (crewStatus &&& cameraBattery === "green") {
+if (crewStatus && cameraBattery === "green") {
    console.log("Crew & cameraBattery is a go!");
    readyToSkate = true;
 } else {
@@ -28,8 +28,10 @@ if (crewStatus &&& cameraBattery === "green") {
 
 if (readyToSkate) {
    console.log("Grab your skateboard...");
-   console.log(("Ready...");
+   console.log("Ready...");
    console.log("Set...");
    console.log("SKATE!");
 } else {
    console.log("No skating today.");
+}
+
